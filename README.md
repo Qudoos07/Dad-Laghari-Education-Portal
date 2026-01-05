@@ -12,7 +12,7 @@ In my community, reliable internet access is scarce and many orphans and student
 
 ## 🚀 Live Demo
 You can view the live version of this project here:
-👉 **[Click to View Live Demo](https://github.com/Qudoos07/Dad-Laghari-Education-Portal)**
+👉 **[Click to View Live Demo](https://qudoos07.github.io/Dad-Laghari-Education-Portal/)**
 
 *(Note: While this demo is online, the code is designed to be downloaded and run offline on USB drives for village students.)*
 
