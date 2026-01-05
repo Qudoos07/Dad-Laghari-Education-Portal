@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad Laghari Rural Education Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dad Laghari Education Portal</h1>
+        <p>Providing knowledge where the internet cannot reach.</p>
+    </header>
+
+    <div class="container">
+        <!-- Subject Selection -->
+        <section id="subjects">
+            <h2>Select a Subject</h2>
+            <div class="card-grid">
+                <div class="card" onclick="openLesson('math')">
+                    <h3>Mathematics</h3>
+                    <p>Learn Basic Arithmetic</p>
+                </div>
+                <div class="card" onclick="openLesson('english')">
+                    <h3>English</h3>
+                    <p>Learn Basic Grammar</p>
+                </div>
+                <div class="card" onclick="openLesson('cyber')">
+                    <h3>Cyber Safety</h3>
+                    <p>Stay Safe Online</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lesson Content (Hidden by default) -->
+        <section id="lesson-viewer" style="display:none;">
+            <button onclick="goBack()" class="back-btn">← Back to Subjects</button>
+            <h2 id="lesson-title">Lesson Title</h2>
+            <div id="lesson-content">
+                <!-- Content injected via JS -->
+            </div>
+            <div id="quiz-section">
+                <h3>Quick Quiz</h3>
+                <p id="quiz-question">Question goes here...</p>
+                <div id="quiz-options">
+                    <!-- Buttons injected via JS -->
+                </div>
+                <p id="quiz-result"></p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Developed by Abdul Qudoos for Dad Laghari Community Service</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
